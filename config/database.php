@@ -75,11 +75,11 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'INL6XNZXC2\SQLEXPRESS'),
+            'host' => env('DB_HOST', 'mydata.cutyq35doutj.ap-south-1.rds.amazonaws.com'),
             'port' => env('DB_PORT', ''),
-            'database' => env('DB_DATABASE', 'Testing'),
-            'username' => env('DB_USERNAME', 'sa'),
-            'password' => env('DB_PASSWORD', 'ramesh@123'),
+            'database' => env('DB_DATABASE', 'sales'),
+            'username' => env('DB_USERNAME', 'ramesh'),
+            'password' => env('DB_PASSWORD', 'ramesh123'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
